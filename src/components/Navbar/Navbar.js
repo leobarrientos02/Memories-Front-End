@@ -19,7 +19,7 @@ const Navbar = () => {
 
     history.push("/");
     setUser(null);
-  }, []);
+  }, [dispatch, history]);
 
   // console.log(user);
   useEffect(() => {
