@@ -8,7 +8,6 @@ import {
   Grid,
   Typography,
   Container,
-  TextField,
 } from "@material-ui/core";
 // Actions
 import { signin, signup } from "../../actions/auth";
