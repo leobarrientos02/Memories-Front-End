@@ -21,4 +21,8 @@ export default makeStyles((theme) => ({
   buttonSubmit: {
     marginBottom: 10,
   },
+  clear: {
+    background: "#a0281d",
+    color: "white",
+  },
 }));

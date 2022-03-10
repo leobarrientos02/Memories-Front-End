@@ -15,6 +15,10 @@ export default makeStyles((theme) => ({
     color: "#a0281d",
     textShadow: "4px 3px 0px #fff, 9px 8px 0px rgba(0,0,0,0.15)",
   },
+  logout: {
+    background: "#a0281d",
+    color: "white",
+  },
   image: {
     marginLeft: "15px",
   },
