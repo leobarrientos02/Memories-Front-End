@@ -1,7 +1,8 @@
 import axios from "axios";
 
+// const url = "https://react-mymemories-app.herokuapp.com/posts";
 const API = axios.create({
-  baseURL: "https://react-mymemories-app.netlify.app",
+  baseURL: "https://react-mymemories-app.herokuapp.com/posts",
 });
 
 API.interceptors.request.use((req) => {
@@ -12,8 +13,6 @@ API.interceptors.request.use((req) => {
   }
   return req;
 });
-
-// const url = "https://react-my-memories-app.herokuapp.com/posts";
 
 export const fetchPosts = () => API.get("/posts");
 export const createPost = (newPost) => API.post("/posts", newPost);
