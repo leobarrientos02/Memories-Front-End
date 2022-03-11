@@ -2,7 +2,7 @@ import axios from "axios";
 
 // const url = "https://react-mymemories-app.herokuapp.com/posts";
 const API = axios.create({
-  baseURL: "https://react-mymemories-app.herokuapp.com/posts",
+  baseURL: "https://react-my-memories-app.herokuapp.com",
 });
 
 API.interceptors.request.use((req) => {
